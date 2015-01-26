@@ -1,7 +1,7 @@
 Status
 ^^^^^^
 
-This page links to most of the open-source projects I have published and displays their current status. It should list all projects from `my github profile <borntyping_>`_, but projects from `borntyping-sandbox`_ are not listed.
+This page links to most of the open-source projects I have published and displays their current status. It should list all projects from `my github profile <borntyping_>`_, though projects from `borntyping-sandbox`_ are not listed.
 
 .. toctree::
 
@@ -28,19 +28,6 @@ These packages are actively maintained, though several are feature complete and 
     :docs: supermann
 .. project:: v
 .. project:: watch-fs
-.. project-status:: python
-
-Deprecated python packages
---------------------------
-
-These packages are no longer actively maintained and generally have better alternatives.
-
-.. project:: argumented
-    :repo: borntyping/python-argumented
-.. project:: diceroll
-.. project:: infix
-    :repo: borntyping/python-infix
-.. project:: spotter
 .. project-status:: python
 
 Chef cookbooks
@@ -75,7 +62,7 @@ These projects are published under open-source licences, but are primarily for m
 Deprecated projects
 ===================
 
-These projects are very old, but I can't bring myself to get rid of them. *None of them are supported or maintained in any way. Most of the code is awful.
+These projects are very old, but I can't bring myself to get rid of them. Most of the code is awful. *They are not supported or maintained.*
 
 .. project:: chef-ladder
 .. project:: this-is-a-game
@@ -84,6 +71,19 @@ These projects are very old, but I can't bring myself to get rid of them. *None 
 .. project:: django-kaos-avatar
 .. project:: enginesheddata
 .. project-status:: deprecated
+
+Deprecated python packages
+--------------------------
+
+Bugfixes are published for these Python packages, but no further work is planned. ``diceroll`` and ``spotter`` have been replaced by ``dice`` and ``watch-fs`` respectively, while ``argumented`` and ``infix`` shouldn't be used.
+
+.. project:: argumented
+    :repo: borntyping/python-argumented
+.. project:: diceroll
+.. project:: infix
+    :repo: borntyping/python-infix
+.. project:: spotter
+.. project-status:: python
 
 .. _borntyping: https://github.com/borntyping
 .. _borntyping-sandbox: https://github.com/borntyping-sandbox
