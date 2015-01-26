@@ -13,6 +13,8 @@ These packages are actively maintained, though several are feature complete and 
 .. project:: clack
 .. project:: colorlog
     :repo: borntyping/python-colorlog
+.. project:: csdl-unoffical
+    :repo: borntyping/python-csdl
 .. project:: dice
     :repo: borntyping/python-dice
 .. project:: mannhunter
@@ -35,8 +37,6 @@ These packages are no longer actively maintained and generally have better alter
 
 .. project:: argumented
     :repo: borntyping/python-argumented
-.. project:: csdl-unoffical
-    :repo: borntyping/python-csdl
 .. project:: diceroll
 .. project:: infix
     :repo: borntyping/python-infix
