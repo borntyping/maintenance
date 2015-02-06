@@ -68,6 +68,14 @@ class Project(object):
         }
 
     @badge
+    def github_tag(self):
+        return {
+            'img': 'https://img.shields.io/github/tag/{repo}.svg',
+            'url': 'https://github.com/{repo}/tags',
+            'alt': 'Latest tag for {repo}'
+        }
+
+    @badge
     def travis_status(self):
         return {
             'img': 'https://img.shields.io/travis/{repo}.svg',
@@ -151,6 +159,12 @@ class ProjectStatusList(docutils.parsers.rst.Directive):
             ('GitHub Issues', 'github_issues'),
             ('CI status', 'travis_status'),
             ('Documentation', 'documentation')
+        ),
+        'rust': (
+            ('Project', 'github_repo'),
+            ('Version', 'github_tag'),
+            ('GitHub Issues', 'github_issues'),
+            ('CI status', 'travis_status')
         ),
         'deprecated': (
             ('Package', 'github_repo'),
