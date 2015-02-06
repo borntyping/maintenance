@@ -45,8 +45,11 @@ Rust packages
 
 Rust packages are currently only used for my final year university project, and are not really supported or ready yet.
 
+.. project:: cyborg
 .. project:: psutil
     :repo: borntyping/rust-psutil
+.. project:: wrecking-ball
+    :repo: borntyping/rust-wrecking-ball
 .. project-status:: rust
 
 Personal projects
