@@ -8,6 +8,11 @@ Packaging
 
 Follow the `Cargo guide`_. Nice and simple.
 
+Readme
+------
+
+.. literalinclude:: examples/README.md
+
 Testing
 =======
 
