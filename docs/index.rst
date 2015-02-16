@@ -7,7 +7,6 @@ These are notes on maintaining the various open-source projects I distribute - w
     :includehidden:
     :maxdepth: 3
 
-    projects/index
     deployment/index
 
 Pages on specific languages or topics contain detailed information and explanations. They are usually followed by a checklist page which provides minimal notes on steps to take in a project or package's workflow.
@@ -15,6 +14,7 @@ Pages on specific languages or topics contain detailed information and explanati
 .. toctree::
     :maxdepth: 2
 
+    projects/index
     rust/index
     python/index
 
