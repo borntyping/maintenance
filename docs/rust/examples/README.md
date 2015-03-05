@@ -2,9 +2,9 @@
 
 Project description
 
-* `Source on GitHub <https://github.com/borntyping/PROJECT>`_
-* `Packages on Crates.io <https://crates.io/crates/PROJECT>`_
-* `Builds on Travis CI <https://travis-ci.org/borntyping/PROJECT>`_
+* [Source on GitHub](https://github.com/borntyping/PROJECT)
+* [Packages on Crates.io](https://crates.io/crates/PROJECT)
+* [Builds on Travis CI](https://travis-ci.org/borntyping/PROJECT)
 
 Usage
 -----
