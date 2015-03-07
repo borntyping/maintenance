@@ -61,6 +61,10 @@ README files for Python projects should use Markdown_ (see `this commit <https:/
 .. literalinclude:: examples/README.md
     :language: markdown
 
+You will need to create a ``MANIFEST.in`` file so that the README is included in the package:
+
+.. literalinclude:: examples/MANIFEST.in`
+
 README files for older Python projects using reStructuredText_ can use the `rst-lint`_ tool for checking the validity of a README file.
 
 .. literalinclude:: examples/README.rst
