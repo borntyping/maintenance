@@ -5,7 +5,7 @@ setup(
     version='0.0.0',
 
     description='A short description of the package',
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
 
     author='Sam Clements',
     author_email='sam@borntyping.co.uk',

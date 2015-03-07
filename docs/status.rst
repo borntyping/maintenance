@@ -26,6 +26,7 @@ These packages are actively maintained, though several are feature complete and 
 .. project:: ssh-run
 .. project:: supermann
     :docs: supermann
+.. project:: tg
 .. project:: v
 .. project:: watch-fs
 .. project-status:: python

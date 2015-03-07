@@ -56,19 +56,15 @@ In the unusual case that a package supplies metadata depending on which Python v
 Readme
 ------
 
-README files for Python projects should use reStructuredText_. The `rst-lint`_ tool is useful for checking the validity of a README file.
+README files for Python projects should use Markdown_ (see `this commit <https://github.com/borntyping/tg/commit/98e0215da6948ddf038d39cbea00c708c94475a1>`_). The README should include links to the GitHub_ repository, any packages on PyPi_,builds on `Travis-CI`_ and documentation on `Read The Docs`_ (which is especially useful when the README is shown in multiple places).
 
-The README should include links to the GitHub_ repository, any packages on PyPi_,builds on `Travis-CI`_ and documentation on `Read The Docs`_ (which is especially useful when the README is shown in multiple places). These links should be included as a list after the project description:
+.. literalinclude:: examples/README.md
+    :language: markdown
 
-.. literalinclude:: examples/README.rst
-    :language: reStructuredText
-    :start-after: Short description of the project.
-
-It's often useful for the README file to include various badges describing the project's status. This block includes the version and license from PyPi_, the build status from `Travis-CI`_, documentation status on `Read The Docs`_ and the number of open GitHub_ issues. Remove any badges or links that do not apply to the project.
+README files for older Python projects using reStructuredText_ can use the `rst-lint`_ tool for checking the validity of a README file.
 
 .. literalinclude:: examples/README.rst
     :language: reStructuredText
-    :lines: 4-24
 
 .. _Python Packaging User Guide: https://packaging.python.org/en/latest/
 .. _distributing projects: https://packaging.python.org/en/latest/distributing.html
@@ -86,3 +82,4 @@ It's often useful for the README file to include various badges describing the p
 .. HTTPS not availible for these links
 .. _semantic versioning specification: http://semver.org/spec/v2.0.0.html
 .. _reStructuredText: https://docutils.sourceforge.net/rst.html
+.. _Markdown: http://commonmark.org/
